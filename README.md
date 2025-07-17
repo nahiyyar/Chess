@@ -6,11 +6,13 @@ A simple and complete chess game implementation in Python. You can play against 
 
 - Fully functional 8x8 chessboard
 - Legal move generation
+- Checks Added
+- Pawn Promotion to Queen added
 
 ## Features Yet to be added
-- Check, checkmate, and stalemate detection
-- Castling, en passant, and pawn promotion
-- Undo moves
+- checkmate
+- Castling, en passant
+
 
 
 ## 🖥️ Technologies Used
