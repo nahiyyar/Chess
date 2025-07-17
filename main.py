@@ -1,3 +1,4 @@
+
 import pygame
 import sys
 from const import *
@@ -77,10 +78,20 @@ class Main:
                         game.show_moves(screen)
                         game.show_pieces(screen)
                         dragger.update_blit(screen)
+                elif event.type == pygame.KEYDOWN:
+                    if event.key == pygame.K_r:
+                        game.reset()
+                        screen=self.screen
+                        dragger=self.game.dragger
+                        board=self.game.board
+                    elif event.key==pygame.K_e:
+                        pygame.quit()
+                        sys.exit()
                 
                 elif event.type == pygame.QUIT:
-                    pygame.quit()
-                    sys.exit()
+                    
+                        pygame.quit()
+                        sys.exit()
             pygame.display.update()
 
 
