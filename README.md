@@ -8,10 +8,11 @@ A simple and complete chess game implementation in Python. You can play against 
 - Legal move generation
 - Checks Added
 - Pawn Promotion to Queen added
+- King and Queen side castling added
 
 ## Features Yet to be added
 - checkmate
-- Castling, en passant
+- en passant
 
 
 
